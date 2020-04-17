@@ -16,6 +16,7 @@ h1 {
     background-size: 200% 200%;
     cursor: pointer;
     margin: 20px;
+    transition: background-position 1000ms;
     
 }
 
@@ -24,4 +25,24 @@ h1 {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
+}
+
+.drugi {
+    background-image: linear-gradient(to top, red 50%, white 50%);
+}
+
+.trzeci {
+    background-image: linear-gradient(to top, green 50%, white 50%);
+}
+
+.czwarty {
+    background-image: linear-gradient(to top, blue 50%, white 50%);
+}
+
+.piaty {
+    background-image: linear-gradient(to top, orange 50%, white 50%);
+}
+
+.szosty {
+    background-image: linear-gradient(to top, pink 50%, white 50%);
 }
