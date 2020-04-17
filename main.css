@@ -15,4 +15,13 @@ h1 {
     background-image: linear-gradient(to top, yellow 50%, white 50%);
     background-size: 200% 200%;
     cursor: pointer;
+    margin: 20px;
+    
+}
+
+.cups {
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
 }
